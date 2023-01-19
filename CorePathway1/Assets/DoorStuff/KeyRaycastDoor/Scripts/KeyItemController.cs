@@ -9,7 +9,7 @@ namespace KeySystem
         [SerializeField] private bool frontDoor = false;
         [SerializeField] private bool frontDoorKey = false;
 
-        [SerializeField] private keyInventory _keyInventory = null;
+        [SerializeField] private KeyInventory _keyInventory = null;
 
         private KeyDoorController doorObject;
 
@@ -31,7 +31,7 @@ namespace KeySystem
             else if (frontDoorKey)
             {
                 _keyInventory.hasFrontDoorKey = true;
-                gameObject.SetSctive(false);
+                gameObject.SetActive(false);
             }
         }
     }
