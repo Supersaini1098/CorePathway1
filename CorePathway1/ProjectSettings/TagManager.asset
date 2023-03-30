@@ -6,11 +6,12 @@ TagManager:
   tags:
   - DoorButton
   - DeathZone
+  - AI
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Navigation
   - Water
   - UI
   - Interact
